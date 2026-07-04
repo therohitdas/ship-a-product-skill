@@ -4,7 +4,7 @@ description: "AI product planning skill inspired by \"Getting Real\" by Basecamp
 version: "1.0.0"
 user-invocable: true
 compatibility: Works with agents that support Agent Skills style repositories. Unofficial conversion generated with book-to-skill and then hand-tuned for product routing, MVP planning, and decision support.
-metadata: {"openclaw":{"emoji":"📘"},"hermes":{"tags":["product","startup","mvp","feature-prioritization","ux","launch"],"category":"productivity"}}
+metadata: {"openclaw":{"emoji":"🚢"},"hermes":{"tags":["product","startup","mvp","feature-prioritization","ux","launch"],"category":"productivity"}}
 allowed-tools:
   - Read
   - Grep
