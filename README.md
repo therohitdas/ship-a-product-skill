@@ -1,19 +1,25 @@
-# Getting Real Skill for AI Agents 📘
+# Ship a Product for AI Agents 📘
 
-> Unofficial agent skill based on Basecamp's *Getting Real* — tuned to route an agent to the right product-building chapter fast.
+> AI product planning skill for agents that need help scoping an MVP, prioritizing features, shaping UX, planning launch, and shipping a lean software product.
 
-This repo packages **one flagship skill**: `getting-real`.
+**Ship a Product** is an unofficial AI agent skill inspired by Basecamp's [*Getting Real*](https://basecamp.com/gettingreal). It helps an agent act more like a sharp startup founder, product lead, or lean product team member when building software.
 
-It is designed for agents that need help building a product end-to-end without drifting into vague startup advice. Instead of turning the book into a fuzzy summary, this skill is organized around the book's actual parts so an agent can load the right context for:
+If you're looking for an **AI product manager skill**, **MVP planning skill**, **feature prioritization skill**, or **startup planning skill**, this is the closest fit.
 
+This repo packages **one flagship skill**: `ship-a-product`.
+
+Use it when you want an agent to help with:
+
+- MVP planning
 - product scope
-- priorities
-- feature selection
-- shipping process
-- interface design
-- launch and promotion
-- support
-- post-launch discipline
+- feature prioritization
+- product strategy
+- UX and interface decisions
+- launch planning
+- startup product decisions
+- post-launch product improvement
+
+Instead of turning the book into a fuzzy summary, this skill routes the agent to the right product-building context fast: scope, priorities, feature selection, process, interface design, pricing, promotion, support, and post-launch decisions.
 
 Works with OpenClaw, Claude Code, Codex, Cursor, Hermes, and other agents that support Agent Skills style repositories.
 
@@ -38,7 +44,7 @@ Most agents are decent at producing output and terrible at **product judgment**.
 - polish details before the product thesis is clear
 - confuse more work with better work
 
-This skill acts like a product editor.
+This skill acts like a product editor for an AI agent.
 
 It helps an agent:
 
@@ -52,35 +58,35 @@ In plain English: this is the kind of skill that helps an agent build **a sharpe
 
 ## What's In This Repo
 
-- `skills/getting-real/` — standard skill layout
-- `clawhub/getting-real/` — OpenClaw-friendly mirrored layout
-- `skills/getting-real/chapter-map.md` — all 91 chapters grouped by official book sections
-- `skills/getting-real/chapters/` — 16 part files for fast routing
-- `skills/getting-real/patterns.md` — reusable product decision patterns
-- `skills/getting-real/glossary.md` — key terms from the book
-- `skills/getting-real/cheatsheet.md` — quick decision rules
+- `skills/ship-a-product/` — standard skill layout
+- `clawhub/ship-a-product/` — OpenClaw-friendly mirrored layout
+- `skills/ship-a-product/chapter-map.md` — all 91 chapters grouped by official book sections
+- `skills/ship-a-product/chapters/` — 16 part files for fast routing
+- `skills/ship-a-product/patterns.md` — reusable product decision patterns
+- `skills/ship-a-product/glossary.md` — key terms from the book
+- `skills/ship-a-product/cheatsheet.md` — quick decision rules
 
-This repo intentionally contains **one skill only**. No aliases. No pack of near-duplicates. `getting-real` is the star.
+This repo intentionally contains **one skill only**. No aliases. No pack of near-duplicates. `ship-a-product` is the star.
 
 ## Install
 
 **Claude Code / Codex / Cursor / Cline / compatible tools**
 
 ```bash
-npx skills add therohitdas/getting-real-skill --skill getting-real
+npx skills add therohitdas/getting-real-skill --skill ship-a-product
 ```
 
 **Hermes Agent**
 
 ```bash
-hermes skills install skills-sh/therohitdas/getting-real-skill/skills/getting-real
+hermes skills install skills-sh/therohitdas/getting-real-skill/skills/ship-a-product
 ```
 
 **Manual**
 
 ```bash
 git clone https://github.com/therohitdas/getting-real-skill.git
-cp -r getting-real-skill/skills/getting-real ~/.claude/skills/
+cp -r getting-real-skill/skills/ship-a-product ~/.claude/skills/
 ```
 
 **OpenClaw / general agent prompt**
@@ -88,10 +94,10 @@ cp -r getting-real-skill/skills/getting-real ~/.claude/skills/
 Paste this into your agent:
 
 ```text
-Install the getting-real skill from this GitHub repo:
+Install the ship-a-product skill from this GitHub repo:
 https://github.com/therohitdas/getting-real-skill
 
-I want you to use it whenever we're building a software product, choosing features, shaping UX, planning launch, or trying to stay lean.
+I want you to use it whenever we're building a software product, scoping an MVP, prioritizing features, shaping UX, planning launch, or trying to stay lean.
 Set it up for me.
 ```
 
@@ -99,13 +105,27 @@ Set it up for me.
 
 Just install it and ask naturally:
 
-- `Use getting-real to evaluate this SaaS idea`
-- `Use getting-real to cut scope for this MVP`
-- `Use getting-real to review this feature roadmap`
-- `Use getting-real to critique this onboarding flow`
-- `Use getting-real to plan a lean launch`
+- `Use ship-a-product to evaluate this SaaS idea`
+- `Use ship-a-product to cut scope for this MVP`
+- `Use ship-a-product to prioritize features for this product`
+- `Use ship-a-product to critique this onboarding flow`
+- `Use ship-a-product to plan a lean launch`
 
 The skill's top-level `SKILL.md` is routing-first. It classifies the problem, then sends the agent to the most relevant book part before answering.
+
+## What Decisions This Skill Helps With
+
+`ship-a-product` is strongest when an agent needs to make or support decisions about:
+
+- what problem the product should solve
+- what the MVP should include or exclude
+- which features to cut, defer, or simplify
+- how to prioritize scope under time and budget constraints
+- how opinionated the product should be
+- which users the product is really for
+- how the core interface and onboarding should work
+- whether a problem needs software or a human workaround
+- how to launch, promote, support, and refine the product after release
 
 ## Official Book Structure
 

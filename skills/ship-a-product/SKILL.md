@@ -1,37 +1,41 @@
 ---
-name: getting-real
-description: "Unofficial skill based on \"Getting Real\" by Basecamp. Use when an agent needs product-building guidance on scope, priorities, feature selection, process, interface design, launch, support, or keeping a product lean."
+name: ship-a-product
+description: "AI product planning skill inspired by \"Getting Real\" by Basecamp. Use when an agent needs help scoping an MVP, prioritizing features, shaping product strategy, making UX and interface decisions, planning launch, handling support, or keeping a software product lean."
 version: "1.0.0"
 user-invocable: true
-compatibility: Works with agents that support Agent Skills style repositories. Unofficial conversion generated with book-to-skill and then hand-tuned for routing.
-metadata: {"openclaw":{"emoji":"📘"},"hermes":{"tags":["product","startup","ux","scope","shipping","founder"],"category":"productivity"}}
+compatibility: Works with agents that support Agent Skills style repositories. Unofficial conversion generated with book-to-skill and then hand-tuned for product routing, MVP planning, and decision support.
+metadata: {"openclaw":{"emoji":"📘"},"hermes":{"tags":["product","startup","mvp","feature-prioritization","ux","launch"],"category":"productivity"}}
 allowed-tools:
   - Read
   - Grep
-argument-hint: [problem, topic, chapter number, or part name]
+argument-hint: [product problem, MVP question, feature decision, chapter number, or part name]
 ---
 
-# Getting Real
+# Ship a Product
 
-**Author**: Basecamp
-**Subtitle**: The smarter, faster, easier way to build a successful web application
+**Book Source**: *Getting Real* by Basecamp
+**What it helps build**: lean software products, MVPs, web apps, and focused startup products
+**Best for**: founders, indie hackers, product designers, developers, and small teams shipping software
+**Decision coverage**: scope, priorities, MVP, feature selection, interface design, pricing, launch, support, post-launch
 **Status**: Unofficial derivative skill, not affiliated with Basecamp
 **Structure**: 16 part files + full chapter map
 **Generated**: 2026-07-04
 
 ## Mission
 
-This skill is not a generic summary of the book. Its main job is to route attention to the right
-part of the book fast.
+This skill is not a generic summary of the book. Its job is to help an AI agent make better product decisions and route attention to the right part of the book fast.
 
 Use this skill when the agent is dealing with:
 
+- MVP planning
 - product scope creep
 - unclear priorities
+- feature prioritization
 - feature bloat
 - shipping too slowly
 - messy interface decisions
 - code/process/org drift
+- startup product strategy
 - launch, promotion, pricing, support, or post-launch discipline
 
 ## Routing First
@@ -71,6 +75,17 @@ Use these heuristics before giving advice:
 - If docs/specs are expanding faster than product truth, load `p11-words.md`.
 - If acquisition/conversion is the question, load `p12-pricing-signup.md` or `p13-promotion.md`.
 - If churn, complaints, or trust issues show up after launch, load `p14-support.md` and `p15-post-launch.md`.
+
+## Decisions This Skill Is Good At
+
+- What should the MVP include right now?
+- Which features should be cut, deferred, or simplified?
+- What problem is the product actually solving?
+- Who is the product really for?
+- What should the onboarding or interface prioritize?
+- Should this be solved with software or a human workaround?
+- What should the team launch first?
+- How should the product stay lean after launch?
 
 ## How To Answer
 
