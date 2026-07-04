@@ -1,6 +1,6 @@
 ---
 name: ship-a-product
-description: "AI product planning skill inspired by \"Getting Real\" by Basecamp. Use when an agent needs help scoping an MVP, prioritizing features, shaping product strategy, making UX and interface decisions, planning launch, handling support, or keeping a software product lean."
+description: "Use when founder instincts are needed for a software product: defining the MVP, choosing priorities, rejecting feature bloat, shaping the UX, planning launch, and keeping the product focused after release."
 version: "1.0.0"
 user-invocable: true
 compatibility: Works with agents that support Agent Skills style repositories. Unofficial conversion generated with book-to-skill and then hand-tuned for product routing, MVP planning, and decision support.
