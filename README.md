@@ -2,6 +2,10 @@
 
 > AI product planning skill for agents that need help scoping an MVP, prioritizing features, shaping UX, planning launch, and shipping a lean software product.
 
+![Single Skill Repo](https://img.shields.io/badge/repo-single_skill-0f172a)
+![Agent Skills](https://img.shields.io/badge/format-Agent_Skills-2563eb)
+![Unofficial](https://img.shields.io/badge/status-unofficial-f59e0b)
+
 **Ship a Product** is an unofficial AI agent skill inspired by Basecamp's [*Getting Real*](https://basecamp.com/gettingreal). It helps an agent act more like a sharp startup founder, product lead, or lean product team member when building software.
 
 If you're looking for an **AI product manager skill**, **MVP planning skill**, **feature prioritization skill**, or **startup planning skill**, this is the closest fit.
@@ -21,7 +25,7 @@ Use it when you want an agent to help with:
 
 Instead of turning the book into a fuzzy summary, this skill routes the agent to the right product-building context fast: scope, priorities, feature selection, process, interface design, pricing, promotion, support, and post-launch decisions.
 
-Works with OpenClaw, Claude Code, Codex, Cursor, Hermes, and other agents that support Agent Skills style repositories.
+Works with 🦞 OpenClaw, <img src="assets/hermes.png" alt="" height="14"> Hermes Agent, Claude Code, Codex, Cursor, and other tools that support the [Agent Skills](https://skills.sh) format.
 
 ## What *Getting Real* Is
 
@@ -59,7 +63,6 @@ In plain English: this is the kind of skill that helps an agent build **a sharpe
 ## What's In This Repo
 
 - `skills/ship-a-product/` — standard skill layout
-- `clawhub/ship-a-product/` — OpenClaw-friendly mirrored layout
 - `skills/ship-a-product/chapter-map.md` — all 91 chapters grouped by official book sections
 - `skills/ship-a-product/chapters/` — 16 part files for fast routing
 - `skills/ship-a-product/patterns.md` — reusable product decision patterns
@@ -70,32 +73,37 @@ This repo intentionally contains **one skill only**. No aliases. No pack of near
 
 ## Install
 
-**Claude Code / Codex / Cursor / Cline / compatible tools**
+Most users should install it with one command:
 
 ```bash
-npx skills add therohitdas/getting-real-skill --skill ship-a-product
+npx skills add therohitdas/ship-a-product-skill
 ```
 
-**Hermes Agent**
+That works because this repo contains **one skill only**.
 
-```bash
-hermes skills install skills-sh/therohitdas/getting-real-skill/skills/ship-a-product
-```
+**Works with:**
+- 🦞 OpenClaw
+- <img src="assets/hermes.png" alt="" height="14"> Hermes Agent
+- Claude Code
+- Codex
+- Cursor
+- Cline
+- Any Agent Skills-compatible tool
 
 **Manual**
 
 ```bash
-git clone https://github.com/therohitdas/getting-real-skill.git
-cp -r getting-real-skill/skills/ship-a-product ~/.claude/skills/
+git clone https://github.com/therohitdas/ship-a-product-skill.git
+cp -r ship-a-product-skill/skills/ship-a-product ~/.claude/skills/
 ```
 
-**OpenClaw / general agent prompt**
+**General agent prompt**
 
 Paste this into your agent:
 
 ```text
 Install the ship-a-product skill from this GitHub repo:
-https://github.com/therohitdas/getting-real-skill
+https://github.com/therohitdas/ship-a-product-skill
 
 I want you to use it whenever we're building a software product, scoping an MVP, prioritizing features, shaping UX, planning launch, or trying to stay lean.
 Set it up for me.
