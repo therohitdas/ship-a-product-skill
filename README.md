@@ -29,12 +29,6 @@ Use it when you want an agent to help with:
 
 Works with 🦞 OpenClaw, <img src="assets/hermes.png" alt="" height="14"> Hermes Agent, Claude Code, Codex, Cursor, and other tools that support the [Agent Skills](https://skills.sh) format.
 
-Core repo principles:
-
-- Keep the repo lightweight
-- Keep the skill opinionated
-- Keep the chapter routing obvious
-
 ## What *Getting Real* Is
 
 [*Getting Real*](https://basecamp.com/gettingreal) is a product-building book from **Basecamp / 37signals**. Its core philosophy is brutally simple:
