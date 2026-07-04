@@ -12,6 +12,14 @@ If you're looking for an **AI product manager skill**, **MVP planning skill**, *
 
 This repo packages **one flagship skill**: `ship-a-product`.
 
+## Install
+
+```bash
+npx skills add therohitdas/ship-a-product-skill
+```
+
+That is the main install command and the recommended path for most users.
+
 Use it when you want an agent to help with:
 
 - MVP planning
@@ -26,6 +34,12 @@ Use it when you want an agent to help with:
 Instead of turning the book into a fuzzy summary, this skill routes the agent to the right product-building context fast: scope, priorities, feature selection, process, interface design, pricing, promotion, support, and post-launch decisions.
 
 Works with 🦞 OpenClaw, <img src="assets/hermes.png" alt="" height="14"> Hermes Agent, Claude Code, Codex, Cursor, and other tools that support the [Agent Skills](https://skills.sh) format.
+
+Core repo principles:
+
+- Keep the repo lightweight
+- Keep the skill opinionated
+- Keep the chapter routing obvious
 
 ## What *Getting Real* Is
 
@@ -71,17 +85,12 @@ In plain English: this is the kind of skill that helps an agent build **a sharpe
 
 This repo intentionally contains **one skill only**. No aliases. No pack of near-duplicates. `ship-a-product` is the star.
 
-## Install
+## More Install Options
 
-Most users should install it with one command:
-
-```bash
-npx skills add therohitdas/ship-a-product-skill
-```
-
-That works because this repo contains **one skill only**.
+The short command above works because this repo contains **one skill only**.
 
 **Works with:**
+
 - 🦞 OpenClaw
 - <img src="assets/hermes.png" alt="" height="14"> Hermes Agent
 - Claude Code
