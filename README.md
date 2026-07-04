@@ -10,15 +10,11 @@
 
 If you're looking for an **AI product manager skill**, **MVP planning skill**, **feature prioritization skill**, or **startup planning skill**, this is the closest fit.
 
-This repo packages **one flagship skill**: `ship-a-product`.
-
 ## Install
 
 ```bash
 npx skills add therohitdas/ship-a-product-skill
 ```
-
-That is the main install command and the recommended path for most users.
 
 Use it when you want an agent to help with:
 
@@ -30,8 +26,6 @@ Use it when you want an agent to help with:
 - launch planning
 - startup product decisions
 - post-launch product improvement
-
-Instead of turning the book into a fuzzy summary, this skill routes the agent to the right product-building context fast: scope, priorities, feature selection, process, interface design, pricing, promotion, support, and post-launch decisions.
 
 Works with 🦞 OpenClaw, <img src="assets/hermes.png" alt="" height="14"> Hermes Agent, Claude Code, Codex, Cursor, and other tools that support the [Agent Skills](https://skills.sh) format.
 
@@ -72,8 +66,6 @@ It helps an agent:
 - avoid overplanning and get to working software faster
 - stay lean after launch instead of becoming a feature landfill
 
-In plain English: this is the kind of skill that helps an agent build **a sharper product**, not just **more product**.
-
 ## What's In This Repo
 
 - `skills/ship-a-product/` — standard skill layout
@@ -83,11 +75,7 @@ In plain English: this is the kind of skill that helps an agent build **a sharpe
 - `skills/ship-a-product/glossary.md` — key terms from the book
 - `skills/ship-a-product/cheatsheet.md` — quick decision rules
 
-This repo intentionally contains **one skill only**. No aliases. No pack of near-duplicates. `ship-a-product` is the star.
-
 ## More Install Options
-
-The short command above works because this repo contains **one skill only**.
 
 **Works with:**
 
@@ -128,8 +116,6 @@ Just install it and ask naturally:
 - `Use ship-a-product to critique this onboarding flow`
 - `Use ship-a-product to plan a lean launch`
 
-The skill's top-level `SKILL.md` is routing-first. It classifies the problem, then sends the agent to the most relevant book part before answering.
-
 ## What Decisions This Skill Helps With
 
 `ship-a-product` is strongest when an agent needs to make or support decisions about:
@@ -166,22 +152,15 @@ Source: https://basecamp.com/gettingreal
 
 This is an **unofficial** derivative skill. It is **not affiliated with Basecamp or 37signals**.
 
-The initial conversion was generated using **book-to-skill**:
+Initial conversion:
 
 - https://github.com/virgiliojr94/book-to-skill
 
-Then it was manually reworked to make the main skill much better at:
+Then it was manually reworked for:
 
 - routing by product problem
 - redirecting attention to the right chapter cluster
 - giving agents a stronger product-building frame
-
-## Repository Goals
-
-- Keep the repo lightweight
-- Keep the skill opinionated
-- Keep the chapter routing obvious
-- Help agents build better products with less crap
 
 ## License
 
